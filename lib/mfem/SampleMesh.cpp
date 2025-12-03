@@ -10,6 +10,11 @@
 
 #include "SampleMesh.hpp"
 
+using std::endl;
+using std::make_pair;
+using std::ofstream;
+using std::ifstream;
+
 namespace CAROM {
 
 #define FULL_DOF_STENCIL

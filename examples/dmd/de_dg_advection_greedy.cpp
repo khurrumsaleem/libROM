@@ -72,7 +72,18 @@
 #include "utils/CSVDatabase.h"
 
 
-using namespace std;
+using std::vector;
+using std::cout;
+using std::endl;
+using std::flush;
+using std::max;
+using std::min;
+using std::to_string;
+using std::ifstream;
+using std::ofstream;
+using std::ostringstream;
+using std::setfill;
+using std::setw;
 using namespace mfem;
 
 // Choice for the problem setup. The fluid velocity, initial condition and

@@ -72,7 +72,20 @@
 #define mkdir(dir, mode) _mkdir(dir)
 #endif
 
-using namespace std;
+using std::vector;
+using std::set;
+using std::map;
+using std::make_pair;
+using std::string;
+using std::cout;
+using std::endl;
+using std::flush;
+using std::max;
+using std::min;
+using std::to_string;
+using std::ifstream;
+using std::ofstream;
+using std::ostringstream;
 using namespace mfem;
 
 // Exact solution, E, and r.h.s., f. See below for implementation.

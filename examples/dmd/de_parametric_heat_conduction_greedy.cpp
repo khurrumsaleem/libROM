@@ -70,7 +70,18 @@
 #define mkdir(dir, mode) _mkdir(dir)
 #endif
 
-using namespace std;
+using std::vector;
+using std::cout;
+using std::endl;
+using std::flush;
+using std::max;
+using std::min;
+using std::to_string;
+using std::ifstream;
+using std::ofstream;
+using std::ostringstream;
+using std::setfill;
+using std::setw;
 using namespace mfem;
 
 /** After spatial discretization, the conduction model can be written as:
